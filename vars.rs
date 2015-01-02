@@ -36,7 +36,7 @@ fn main() {
     }
     println!("a variable: {}", a_variable);
     let another_variable;
-    // Error!
+    // Error! Use of uninitialized variable
     // println!("another var: {}", another_variable);
     another_variable = 1i;
     println!("another var: {}", another_variable);

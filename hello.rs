@@ -11,7 +11,7 @@ fn main() {
              predicate="over the lazy dog",
              subject="the quick brown fox",
              verb="jumps");
-    println!("{} of {:t} people know binary, the other half don't", 1i, 2i);
+    println!("{} of {:b} people know binary, the other half don't", 1i, 2i);
     println!("My name is {0}, {1} {0}", "Bond", "James");
     println!("1 + 2 = {}", 1u + 2);
     println!("1 - 2 = {}", 1i - 2);
@@ -20,9 +20,9 @@ fn main() {
     println!("true OR false is {}", true || false);
     println!("NOT true is {}", !true);
     //Bitwise operations
-    println!("0011 AND 0101 is {:04t}", 0b0011u & 0b0101);
-    println!("0011 OR 0101 is {:04t}", 0b0011u | 0b0101);
-    println!("0011 XOR 0101 is {:04t}", 0b0011u ^ 0b0101);
+    println!("0011 AND 0101 is {:04b}", 0b0011u & 0b0101);
+    println!("0011 OR 0101 is {:04b}", 0b0011u | 0b0101);
+    println!("0011 XOR 0101 is {:04b}", 0b0011u ^ 0b0101);
     println!("1 << 5 is {}", 1u << 5);
     println!("0x80 >> 2 is 0x{:x}", 0x80u >> 2);
     // Use underscore to improve readability!

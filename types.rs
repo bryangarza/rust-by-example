@@ -7,6 +7,9 @@ fn main() {
     // an_integer = true;
 
     let decimal = 65.4321_f32;
+    // Equivalent:
+    // let decimal: f32 = 65.4321;
+
     // Error! No implicit conversion
     // let integer: u8 = decimal;
 
